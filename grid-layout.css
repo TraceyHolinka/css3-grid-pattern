@@ -39,7 +39,7 @@ add native CSS grid directly to your CSS.
 
 /* --- MOBILE --- */
     /* 4 column grid (12px gutter). Width is fluid. */
-    .grid-4-columns{
+    .grid-4-columns {
       /* Declares a grid */
       display: grid;
       /* 1 column repeat 3X(gutter column) */
@@ -70,30 +70,30 @@ add native CSS grid directly to your CSS.
     }
   
     /* Element spans the column 2 to column 11 of the grid */
-    .grid-12-columns-spans-column-2-to-11 {
+    .grid-12-columns-spans-columns-2-to-11 {
       grid-column: 3 / span 19;
     }
   
     /* -- 4-4-4-split --/
     /* Element spans the first 1/3 of the grid */
-    .grid-12-columns-first-column-of-3-3-3-split {
+    .grid-12-columns-first-columns-of-3-3-3-split {
       grid-column: 1 / span 7;
     }
   
     /* Element spans middle 1/3 of the grid */
-    .grid-12-columns-middle-column-of-3-3-3-split {
+    .grid-12-columns-middle-columns-of-3-3-3-split {
       grid-column: 9 / span 7;
     }
   
     /* Element spans last 1/3 of the grid */
-    .grid-12-columns-last-column-of-3-3-3-split {
+    .grid-12-columns-last-columns-of-3-3-3-split {
       grid-column: 17 / span 7;
     }
     /* -- End 4-4-4-split --/
   
     /* -- 3-9-split --/
    /* Element spans first 1/3 of the grid */
-    .grid-12-columns-first-columns-of-3-9-split- {
+    .grid-12-columns-first-columns-of-3-9-split {
       grid-column: 1 / span 5;
     }
   
